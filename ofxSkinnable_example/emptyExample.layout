@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\Interactive\ImageButton.h" open="1" top="0" tabpos="3">
+		<Cursor position="1243" topLine="23" />
+	</File>
+	<File name="..\..\Interactive\TransitionItem.h" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="321" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="1064" topLine="45" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="5">
+		<Cursor position="94" topLine="0" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\SkinnableData.h" open="1" top="0" tabpos="9">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\SkinnableObject.cpp" open="1" top="1" tabpos="4">
+		<Cursor position="2689" topLine="77" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\SkinnableObject.h" open="1" top="0" tabpos="2">
+		<Cursor position="1274" topLine="18" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\SkinnableObjectHub.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="3731" topLine="98" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\SkinnableObjectHub.h" open="1" top="0" tabpos="7">
+		<Cursor position="1368" topLine="25" />
+	</File>
+	<File name="..\..\ofxSkinnable\src\ofxSkinnable.h" open="1" top="0" tabpos="6">
+		<Cursor position="162" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

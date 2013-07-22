@@ -3,7 +3,6 @@
 	ofxSkinnable 
 	by Ben McChesney
 	
-	STILL IN DEVELOPMENT
 */
 
 created to solve two problems : 
@@ -14,6 +13,8 @@ Easily reskinning ui components
 Each scene of skinnableObjects is saved to an XML file and can be loaded. 
 Ran into some problems with pathing in 0F 0071,  but I believe they are fixed in 0072.
 
+
+!!! Example and Library are still under development !!! 
 
 External Dependencies :
 https://github.com/benMcChesney/ofxPolygonHitTest

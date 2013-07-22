@@ -3,26 +3,30 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 
-     //curNumObjects = 0 ;
-     //maxObjects = 200 ;
-     //objects = new SkinnableObject[ maxObjects ] ;
-
     SkinnableObjectHub::Instance()->init( ) ;
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
-    for ( int i = 0 ; i < objects.size() ; i++ )
+
+    if ( objects.size() > 0 )
     {
-        objects[i]->update ( ) ;
+      for ( int i = 0 ; i < objects.size() ; i++ )
+      {
+          objects[i]->update ( ) ;
+      }
     }
+
 }
 
 //--------------------------------------------------------------
 void testApp::draw(){
+     if ( objects.size() > 0 )
+    {
     for ( int i = 0 ; i < objects.size() ; i++ )
     {
         objects[i]->draw( ) ;
+    }
     }
 }
 

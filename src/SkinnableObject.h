@@ -3,10 +3,10 @@
 #include "ofMain.h"
 #include "BasePolyObject.h"
 #include "SkinnableObjectHub.h"
-#include "AlphaStackItem.h"
+#include "ofxAlphaStackItem.h"
 #include "SkinnableData.h"
 
-class SkinnableObject : public BasePolyObject , public AlphaStackItem
+class SkinnableObject : public BasePolyObject , public ofxAlphaStackItem
 {
     public:
         SkinnableObject();

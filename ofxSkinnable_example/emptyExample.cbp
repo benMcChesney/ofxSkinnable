@@ -68,11 +68,11 @@
 			<Add directory="..\..\..\libs\tess2\include" />
 			<Add directory="..\..\..\libs\cairo\include\cairo" />
 			<Add directory="src" />
-			<Add directory="..\..\..\helios_addons\ofxSkinnable\src" />
-			<Add directory="..\..\..\helios_addons\Interactive" />
+			<Add directory="..\..\..\addons\ofxHeliosLibs\src" />
 			<Add directory="..\..\..\addons\ofxPolygonHitTest\src" />
 			<Add directory="..\..\..\addons\ofxXmlSettings\src" />
 			<Add directory="..\..\..\addons\ofxXmlSettings\libs" />
+			<Add directory="..\..\..\addons\ofxSkinnable\src" />
 		</Compiler>
 		<Linker>
 			<Add library="..\..\..\libs\FreeImage\lib\win_cb\FreeImage.lib" />
@@ -115,19 +115,25 @@
 			<Add after='cmd /c if not exist &quot;$(PROJECT_DIR)bin/data&quot; mkdir &quot;$(PROJECT_DIR)bin/data&quot;' />
 			<Mode after="always" />
 		</ExtraCommands>
+		<Unit filename="..\..\ofxHeliosLibs\src\Interactive.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MatrixTransformImage.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchActions.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchActions.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchCursor.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchCursor.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchObject.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\MultiTouchObject.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\SoundBank.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxAlphaStackItem.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxAlphaStackItem.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxMatrixTransformObject.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxMatrixTransformObject.h" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxTransitionItem.cpp" />
+		<Unit filename="..\..\ofxHeliosLibs\src\ofxTransitionItem.h" />
 		<Unit filename="..\..\..\addons\ofxPolygonHitTest\src\BasePolyObject.cpp" />
 		<Unit filename="..\..\..\addons\ofxPolygonHitTest\src\BasePolyObject.h" />
 		<Unit filename="..\..\..\addons\ofxPolygonHitTest\src\ofxPolygonHitTest.cpp" />
 		<Unit filename="..\..\..\addons\ofxPolygonHitTest\src\ofxPolygonHitTest.h" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
-		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
-		<Unit filename="..\..\Interactive\AlphaStackItem.h" />
-		<Unit filename="..\..\Interactive\ImageButton.h" />
-		<Unit filename="..\..\Interactive\TransitionItem.h" />
 		<Unit filename="src\main.cpp">
 			<Option virtualFolder="src" />
 		</Unit>
@@ -143,6 +149,12 @@
 		<Unit filename="..\..\ofxSkinnable\src\SkinnableObjectHub.cpp" />
 		<Unit filename="..\..\ofxSkinnable\src\SkinnableObjectHub.h" />
 		<Unit filename="..\..\ofxSkinnable\src\ofxSkinnable.h" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
+		<Unit filename="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

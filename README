@@ -11,5 +11,11 @@ created to solve two problems :
 Laying out buttons and UI elements from a design
 Easily reskinning ui components
 
-Each scene of skinnableObjects is saved to an XML file and can be loaded. Ran into some problems with pathing in 0F 0071,  but I believe they are fixed in 0072.
+Each scene of skinnableObjects is saved to an XML file and can be loaded. 
+Ran into some problems with pathing in 0F 0071,  but I believe they are fixed in 0072.
+
+
+External Dependencies :
+https://github.com/benMcChesney/ofxPolygonHitTest
+https://github.com/HeliosInteractive/ofxHeliosLibs
 	

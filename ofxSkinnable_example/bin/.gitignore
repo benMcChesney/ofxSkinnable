@@ -1,7 +1,0 @@
-#Save space on github 
-# no need to store .dll and .exe
-
-*.exe
-*.dll
-*.pdb
-*.pbd

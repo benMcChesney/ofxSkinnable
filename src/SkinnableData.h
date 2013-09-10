@@ -11,70 +11,53 @@ class SkinnableData
             x = 0 ;
             y = 0 ;
             rotation = 0 ;
-            imagePath = "" ;
             width = 0 ;
             height = 0 ;
-            originalHeight = 0 ;
-            originalWidth = 0 ;
             name = "noName" ;
             index = -2 ;
+			type = 0  ; 
         }
         virtual ~SkinnableData() {}
 
+	
         //Assmuing that it's pushed into the right tag.
-        void writeDataToXml( ofxXmlSettings *xml )
+        void writeDataToXml( ofxXmlSettings *xml  , float scale )
         {
-            xml->setValue( "x" , x ) ;
-            xml->setValue( "y" , y ) ;
+			xml->setValue( "type" , type ) ; 
+            xml->setValue( "x" , x * scale ) ;
+            xml->setValue( "y" , y * scale ) ;
             xml->setValue( "rotation" , rotation ) ;
-            xml->setValue( "originalHeight" , originalHeight ) ;
-            xml->setValue( "originalWidth" , originalWidth ) ;
-            xml->setValue( "width" , width ) ;
-            xml->setValue( "height" , height ) ;
-            xml->setValue( "imagePath" , imagePath ) ;
+            xml->setValue( "width" , width * scale ) ;
+            xml->setValue( "height" , height * scale ) ;
             xml->setValue( "name" , name ) ;
             xml->setValue( "index" , index ) ;
-            xml->setValue( "pivotX" , pivot.x ) ;
-            xml->setValue( "pivotY" , pivot.y ) ;
-            xml->setValue( "anchorPointX" , anchorPoint.x ) ;
-            xml->setValue( "anchorPointY" , anchorPoint.y ) ;
         }
 
         //Assmuing that it's pushed into the right tag.
         void loadDataFromXml( ofxXmlSettings *xml )
         {
+			int _type = xml->getValue( "type" , -1 ) ; 
+
+			type = _type ; 
             x = xml->getValue( "x" , x ) ;
             y = xml->getValue( "y" , y ) ;
             rotation = xml->getValue( "rotation" , rotation ) ;
-            originalHeight = xml->getValue( "originalHeight" , originalHeight ) ;
-            originalWidth = xml->getValue( "originalWidth" , originalWidth ) ;
             width = xml->getValue( "width" , width ) ;
             height = xml->getValue( "height" , height ) ;
-            imagePath = xml->getValue( "imagePath" , imagePath ) ;
             name = xml->getValue( "name" , name ) ;
             index = xml->getValue( "index" , index ) ;
-            pivot.x = xml->getValue( "pivotX" , pivot.x ) ;
-            pivot.y = xml->getValue( "pivotY" , pivot.y ) ;
-            anchorPoint.x = xml->getValue( "anchorPointX" , anchorPoint.x ) ;
-            anchorPoint.y = xml->getValue( "anchorPointY" , anchorPoint.y ) ;
         }
 
         float x , y ;
         float rotation ;
 
-        float originalHeight ;
-        float originalWidth ;
-
         float width ;
         float height ;
 
-        string imagePath ;
-        ofPoint anchorPoint ;
-        ofPoint pivot ;
         string name ;
         int index ;
-        vector<ofVec2f> pts ;
-
+   
+		int type ; 
 };
 
 #endif // SKINNABLEDATA_H

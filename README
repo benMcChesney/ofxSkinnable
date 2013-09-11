@@ -1,22 +1,40 @@
 /*
 
-	ofxSkinnable 
-	by Ben McChesney
+	ofxSkinnable addon
+	by Ben McChesney of Helios Interactive , San Francisco CA
 	
 */
 
-created to solve two problems : 
+This library was created solve some problems : 
 
 Laying out buttons and UI elements from a design
-Easily reskinning ui components
-
-Each scene of skinnableObjects is saved to an XML file and can be loaded. 
-Ran into some problems with pathing in 0F 0071,  but I believe they are fixed in 0072.
 
 
-!!! Example and Library are still under development !!! 
+Giving Designers access to this tool for detailed typography adjustments
+
+
+Each scene of skinnableObjects is saved to an XML file and can be loaded into another scene.
+
+
+!!! Example and Library are still under development but are in ALPHA right now !!! 
+
+use the clone_addons.sh script for external dependencies but they are : 
+
 
 External Dependencies :
-https://github.com/benMcChesney/ofxPolygonHitTest
-https://github.com/HeliosInteractive/ofxHeliosLibs
+
+
+
+git clone https://github.com/HeliosInteractive/ofxTextSuite.git
+
+
+git clone https://github.com/HeliosInteractive/ofxFTGL.git
+
+
+git clone https://github.com/rezaali/ofxUI.git
+
+
+git clone https://github.com/benMcChesney/ofxSkinnable.git
+
+
 	

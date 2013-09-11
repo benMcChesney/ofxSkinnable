@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\testApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSvg\src\ofxSvg.cpp">
+			<Filter>addons\ofxSvg\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\src_colors.cpp">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny.cpp">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_gradient.cpp">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_list.cpp">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxFTGL\src\ofxFTGLFont.cpp">
+			<Filter>addons\ofxFTGL\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSkinnable\src\SkinnableIcon.cpp">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSkinnable\src\SkinnableObject.cpp">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSkinnable\src\SkinnableObjectHub.cpp">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxSkinnable\src\SkinnableTextBlock.cpp">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxTextSuite\src\ofxTextBlock.cpp">
+			<Filter>addons\ofxTextSuite\src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg">
+			<UniqueIdentifier>{3DD76815-827C-5F89-582D-2CF4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\src">
+			<UniqueIdentifier>{6A00B88F-1ADB-BB17-8276-ED19}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs">
+			<UniqueIdentifier>{C226E9C6-88C9-1F12-D422-3DA3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\svgTiny">
+			<UniqueIdentifier>{0A0E4783-DE3F-EB55-7775-3205}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSvg\libs\svgTiny\src">
+			<UniqueIdentifier>{668F2528-598B-D351-B74F-9E6F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings">
+			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\src">
+			<UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\libs">
+			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL">
+			<UniqueIdentifier>{57563682-F5C8-32F7-8507-391B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL\src">
+			<UniqueIdentifier>{DAB99E66-BFF9-D8FC-4903-714C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL\libs">
+			<UniqueIdentifier>{A27BE0C5-EBA8-B296-A7FC-2D5D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL\libs\FTGL">
+			<UniqueIdentifier>{A1802BB1-F112-3ED7-7AA3-2DC0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL\libs\FTGL\include">
+			<UniqueIdentifier>{193CBACB-1AEE-E0F8-A1B8-ADC6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFTGL\libs\FTGL\include\FTGL">
+			<UniqueIdentifier>{C73DF1B7-81E5-1B03-29A4-6B8F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSkinnable">
+			<UniqueIdentifier>{AC5E9A7C-9805-40A9-1EEB-EC57}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSkinnable\src">
+			<UniqueIdentifier>{413C9973-845A-C998-8379-6466}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTextSuite">
+			<UniqueIdentifier>{5FA61CFC-4BC7-6534-EE43-86B6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTextSuite\src">
+			<UniqueIdentifier>{BB42DA10-755C-8653-038F-ED11}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxUI">
+			<UniqueIdentifier>{B492C5B0-FF91-9C5A-638A-3142}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxUI\src">
+			<UniqueIdentifier>{A00C2D23-6C11-BC86-3993-2CF0}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\testApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSvg\src\ofxSvg.h">
+			<Filter>addons\ofxSvg\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny.h">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSvg\libs\svgTiny\src\svgtiny_internal.h">
+			<Filter>addons\ofxSvg\libs\svgTiny\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\src\ofxFTGLFont.h">
+			<Filter>addons\ofxFTGL\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTBBox.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTBitmapGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTBuffer.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTBufferFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTBufferGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTExtrdGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\ftgl.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLBitmapFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLExtrdFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLOutlineFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLPixmapFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLPolygonFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGLTextureFont.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTLayout.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTOutlineGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTPixmapGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTPoint.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTPolyGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTSimpleLayout.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxFTGL\libs\FTGL\include\FTGL\FTTextureGlyph.h">
+			<Filter>addons\ofxFTGL\libs\FTGL\include\FTGL</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\ofxSkinnable.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\ofxSkinnableEvents.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableData.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableIcon.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableObject.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableObjectHub.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableTextBlock.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxSkinnable\src\SkinnableTextData.h">
+			<Filter>addons\ofxSkinnable\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTextSuite\src\ofxTextBlock.h">
+			<Filter>addons\ofxTextSuite\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxTextSuite\src\ofxTextSuite.h">
+			<Filter>addons\ofxTextSuite\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DGraph.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUI2DPad.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBaseDraws.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIBiLabelSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIButton.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICanvas.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICanvas.h.save">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICircleSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUICustomImageButton.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIDropDownList.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIEventArgs.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPS.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIFPSSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImage.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageButton.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSampler.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIImageToggle.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabel.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelButton.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUILabelToggle.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMinimalSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMovingGraph.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageButton.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIMultiImageToggle.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUINumberDialer.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRadio.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRangeSlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRectangle.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIRotarySlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIScrollableCanvas.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISlider.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpacer.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISpectrum.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUISuperCanvas.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextArea.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUITextInput.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggle.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIToggleMatrix.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIValuePlotter.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWaveform.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidget.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxUI\src\ofxUIWidgetWithLabel.h">
+			<Filter>addons\ofxUI\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>

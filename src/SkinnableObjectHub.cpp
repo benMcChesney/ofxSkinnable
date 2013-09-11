@@ -95,7 +95,7 @@ void SkinnableObjectHub::loadFromXml( string xmlPath )
 			/*
 			 datum->index = objects.size() ; */
 			int prevIndex = objects.size() ; 
-			addNewSkinnable( s , s->type ) ;
+			addNewSkinnableObject( s , s->type ) ;
 			int nowIndex = objects.size() ; 
 
 			if ( nowIndex > prevIndex ) 
@@ -190,7 +190,7 @@ void SkinnableObjectHub::saveToXml( )
     sceneXml.saveFile( xmlPath + "4k.xml" ) ;
 
 }
-void SkinnableObjectHub::addNewSkinnable ( SkinnableData * datum , int type )
+bool SkinnableObjectHub::addNewSkinnableObject ( SkinnableData * datum , int type )
 {
 
     for ( int i = 0 ; i < objects.size() ; i++ )
@@ -199,6 +199,7 @@ void SkinnableObjectHub::addNewSkinnable ( SkinnableData * datum , int type )
         {
             cout << "ERROR!! attempting to add in duplicate '" << datum->name << "'" << endl ;
             cout << "Not adding it as each name NEEDS to be unique." << endl ;
+			return false ; 
         }
         datum->index = objects.size() ;
 
@@ -226,7 +227,10 @@ void SkinnableObjectHub::addNewSkinnable ( SkinnableData * datum , int type )
 	{
 		object->setup( (*datum) ) ; 
 		objects.push_back ( object ) ; 
+		return true ; 
 	}
+
+	return false ; 
 }
 
 SkinnableData * SkinnableObjectHub::createDefaultSkinnableData ( )

@@ -1,12 +1,10 @@
 #pragma once
 
 #include "ofMain.h"
-#include "BasePolyObject.h"
-#include "ofxAlphaStackItem.h"
 #include "SkinnableData.h"
 #include "ofxSkinnableEvents.h"
 
-class SkinnableObject : public ofxAlphaStackItem
+class SkinnableObject
 {
     public:
         SkinnableObject();

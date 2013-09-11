@@ -5,7 +5,6 @@
 #include "SkinnableData.h"
 #include "SkinnableTextBlock.h"
 #include "ofxXmlSettings.h"
-#include "ofxPolygonHitTest.h"
 
 class SkinnableObjectHub
 {
@@ -25,7 +24,7 @@ class SkinnableObjectHub
         void mouseMoved ( ofMouseEventArgs& data ) ;
 
 
-        void addNewSkinnable( SkinnableData * data , int type ) ;
+        bool addNewSkinnableObject( SkinnableData * data , int type ) ;
         void loadBackgroundImage( string path = "" ) ; 
 		SkinnableData * createDefaultSkinnableData ( ) ;
         SkinnableData * getDataByName( string name ) ;

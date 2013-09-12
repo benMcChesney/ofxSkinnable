@@ -71,21 +71,44 @@ void SkinnableObject::hubUpdateHandler ( SkinnableData &args )
  void SkinnableObject::draw ( )
  {
     ofPushMatrix( ) ;
+	ofPushStyle() ; 
 		ofTranslate( data.x , data.y ) ; 
         ofRotateZ( rotation ) ;
 		ofSetColor( 128 , 180 ) ; 
-		ofSetLineWidth ( 5 ) ; 
-		ofNoFill( ) ; 
+		
+		ofSetLineWidth( 3 ) ; 
+		
+
         if ( bSelected == true )
         {
             ofSetColor ( 0 , 255 , 0  , 180 ) ;
+
         }
+
+		
+		ofSetLineWidth ( 5 ) ; 
+		ofNoFill( ) ; 
 		float padding = 10  ;
 		
         ofRect( -padding , -padding , data.width + padding * 2 , data.height + padding * 2 ) ;
 		ofFill() ; 
     ofPopMatrix( ) ;
 
+	if ( bSelected == true ) 
+	{
+		ofSetColor( 0 , 255 , 255 , 180 ) ; 
+		ofNoFill() ;
+		ofCircle( data.anchorX , data.anchorY , 10 ) ; 
+		ofFill( ) ; 
+	}
+	else
+	{
+		ofSetColor( 0 , 255 , 255 , 180 ) ; 
+		ofFill() ; 
+		ofCircle( data.anchorX , data.anchorY , 10 ) ; 
+	}
+
+	ofPopStyle( ) ; 
     //baseDraw( ) ;
  }
 

@@ -92,8 +92,7 @@ void SkinnableObjectHub::loadFromXml( string xmlPath )
         sceneXml.pushTag( "sceneObject" , i ) ;
             SkinnableData * s = createDefaultSkinnableData() ;
             s->loadDataFromXml( &sceneXml ) ;
-			/*
-			 datum->index = objects.size() ; */
+
 			int prevIndex = objects.size() ; 
 			addNewSkinnableObject( s , s->type ) ;
 			int nowIndex = objects.size() ; 
@@ -172,7 +171,7 @@ void SkinnableObjectHub::saveToXml( )
     }
 
 
-    sceneXml.saveFile( xmlPath + "1080p.xml" ) ;
+    sceneXml.saveFile( xmlPath + "_1080p.xml" ) ;
 
 	//Now Export 4K
 	sceneXml.clear( ) ;
@@ -187,7 +186,7 @@ void SkinnableObjectHub::saveToXml( )
     }
 
 
-    sceneXml.saveFile( xmlPath + "4k.xml" ) ;
+    sceneXml.saveFile( xmlPath + "_4k.xml" ) ;
 
 }
 bool SkinnableObjectHub::addNewSkinnableObject ( SkinnableData * datum , int type )

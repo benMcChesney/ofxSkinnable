@@ -29,6 +29,7 @@ class SkinnableObject
 
 		 SkinnableData data ;
 		 float rotation ; 
+		
 
     private:
 };

@@ -74,7 +74,7 @@ void SkinnableObject::hubUpdateHandler ( SkinnableData &args )
 	ofPushStyle() ; 
 		ofTranslate( data.x , data.y ) ; 
         ofRotateZ( rotation ) ;
-		ofSetColor( 128 , 180 ) ; 
+		ofSetColor( 255 , 105 , 180 , 180 ) ; 
 		
 		ofSetLineWidth( 3 ) ; 
 		
@@ -104,8 +104,9 @@ void SkinnableObject::hubUpdateHandler ( SkinnableData &args )
 	else
 	{
 		ofSetColor( 0 , 255 , 255 , 180 ) ; 
+		ofNoFill() ;
+		ofCircle( data.anchorX , data.anchorY , 10 ) ;
 		ofFill() ; 
-		ofCircle( data.anchorX , data.anchorY , 10 ) ; 
 	}
 
 	ofPopStyle( ) ; 

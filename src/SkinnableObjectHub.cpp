@@ -207,7 +207,7 @@ bool SkinnableObjectHub::addNewSkinnableObject ( SkinnableData * datum , int typ
 	SkinnableObject * object = NULL ; 
 	if ( type == 0 ) 
 	{
-		object = new SkinnableObject() ; 
+		object = new SkinnableImage() ;
 		datum->type = 0 ; 
 	}
 
@@ -232,6 +232,37 @@ bool SkinnableObjectHub::addNewSkinnableObject ( SkinnableData * datum , int typ
 	return false ; 
 }
 
+//int selectedIndex ;
+void SkinnableObjectHub::setSelected( int _index ) 
+{
+	int oldIndex = selectedIndex ; 
+	if ( _index != selectedIndex 
+		&& isValidObjectIndex( _index ) == true  ) 
+	{
+		selectedIndex = _index ; 
+		//Valid Index
+	    string argsNew = objects[ selectedIndex ]->data.name ;
+        ofNotifyEvent( ofxSkinnableEvents::Instance()->ACTIVATE_SKINNABLE_OBJECT , argsNew ) ;
+
+		//oldIndex
+		string argsOld = objects[ oldIndex ]->data.name ;
+        ofNotifyEvent( ofxSkinnableEvents::Instance()->DEACTIVATE_SKINNABLE_OBJECT , argsOld ) ;
+	}
+}
+
+
+ bool SkinnableObjectHub::isValidObjectIndex( int index ) 
+ {
+	 if ( index >= 0
+	 	  && index < ( objects.size() ) ) 
+	{
+		return true ; 
+	}
+	else
+	{
+		return false; 
+	}
+ }
 SkinnableData * SkinnableObjectHub::createDefaultSkinnableData ( )
 {
     SkinnableData * skinData ;

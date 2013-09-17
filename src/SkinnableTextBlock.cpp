@@ -52,7 +52,7 @@ void SkinnableTextBlock::loadDataFromXml( ofxXmlSettings *xml )
 
 void SkinnableTextBlock::applyTextData ( ) 
 {
-	cout << "applying text data... " << endl ; 
+	//cout << "applying text data... " << endl ; 
 	//cout << textData.toString() << endl ; 
 
 	if ( lastFontSize != textData.fontSize || lastFontPath != textData.fontPath )
@@ -66,7 +66,7 @@ void SkinnableTextBlock::applyTextData ( )
 		textBlock.wrapTextX( data.width ) ; 
 	if ( textData.bWrapBox ) 
 		textBlock.wrapTextArea( data.width , data.height ) ; 
-	textBlock.setLineHeight( textData.lineSpacing * textData.fontSize ) ; 
+	textBlock.setLineHeight( textData.lineSpacing ) ; 
 
 	lastFontSize = textData.fontSize ; 
 	lastFontPath = textData.fontPath ; 

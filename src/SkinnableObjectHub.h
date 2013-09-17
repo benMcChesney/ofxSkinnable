@@ -4,6 +4,8 @@
 #include "SkinnableObject.h"
 #include "SkinnableData.h"
 #include "SkinnableTextBlock.h"
+#include "SkinnableImage.h"
+#include "SkinnableImageData.h"
 #include "ofxXmlSettings.h"
 
 class SkinnableObjectHub
@@ -41,6 +43,8 @@ class SkinnableObjectHub
         ofxXmlSettings sceneXml ;
 
         int selectedIndex ;
+		void setSelected( int _index ) ; 
+		bool isValidObjectIndex( int index ) ; 
 
 protected : 
 		string backgroundImagePath ; 

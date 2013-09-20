@@ -14,6 +14,8 @@ void SkinnableImage::setup ( string _name )
     imageData.imagePath = "none" ; 
     imageData.imageScale = 1.0f ; 
     data.type = 0 ;
+
+
 }
 
 void SkinnableImage::update ( )
@@ -25,12 +27,13 @@ void SkinnableImage::update ( )
 void SkinnableImage::draw ( )
 {
     SkinnableObject::draw( ) ; 	
-    image.alphaStackUpdate( 1.0f ) ;
+    //image.alphaStackUpdate( 1.0f ) ;
     ofSetColor( 255 ) ;
     ofPushMatrix() ;
+		ofTranslate( data.x , data.y ) ; 
         ofScale( imageData.imageScale , imageData.imageScale ) ;
-        if ( image.image.bAllocated() == true )
-        image.draw() ;
+        if ( image.bAllocated() == true )
+        image.draw( 0 , 0 ) ;
     ofPopMatrix() ;
 }
 
@@ -45,6 +48,8 @@ void SkinnableImage::loadDataFromXml( ofxXmlSettings *xml )
 {
     data.loadDataFromXml( xml ) ;
     imageData.loadDataFromXml( xml ) ; 
+	
+	image.loadImage( imageData.imagePath ) ; 
 }
 
 /*

@@ -13,7 +13,6 @@
 
 #include "SkinnableObject.h"
 #include "SkinnableImageData.h"
-#include "ofxMatrixTransformImage.h"
 
 class SkinnableImage: public SkinnableObject
 {
@@ -29,8 +28,9 @@ class SkinnableImage: public SkinnableObject
 	virtual void loadDataFromXml( ofxXmlSettings *xml ) ;
     
 	//Unique to this skinnable object
-    ofxMatrixTransformImage image ;
-    SkinnableImageData imageData ; 
+    ofImage image ;
+    string imagePath ;
+	SkinnableImageData imageData ; 
     
 };
 
